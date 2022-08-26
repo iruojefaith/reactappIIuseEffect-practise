@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.counter-container {
+  margin: auto;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 5rem;
+}
+button {
+  padding: 1rem 4rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+.incrementBtn {
+  background: #002affcf;
+}
+.decrementBtn {
+  background: #ff0000dd;
+}
+.resetBtn {
+  background: #1e8000;
+}
+
